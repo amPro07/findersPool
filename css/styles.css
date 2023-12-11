@@ -1,0 +1,216 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* Set background color */
+}
+
+/* Add or update this in your CSS */
+.logo {
+  width: 150px; /* Adjust the width as needed */
+  height: 80px;
+  /* Add any other styling you need */
+}
+
+/* Add this to your CSS */
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #0056b3;
+}
+
+/* Transparent Navigation */
+.navbar {
+  transition: background-color 0.5s ease-in-out;
+  height: 80px;
+}
+
+.navbar-expanded {
+  background-color: white;
+}
+
+.navbar.bg-white {
+  background-color: #ffffff; /* Set background color when scrolled */
+  box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle effect */
+}
+
+/* Full-screen Banner Section */
+.banner-section {
+  background-image: url("E:/Finderspool/Website/img/banner.jpg"); /* Replace 'banner-background.jpg' with your own image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  height: 100vh; /* Set full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Other Sections and Footer Styles */
+/* (Remaining styles go here) */
+
+/* Projects Section */
+.projects-section {
+  padding: 50px 0;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Our Partners Section */
+.partners-section {
+  background-color: #f8f9fa; /* Set background color */
+  padding: 50px 0;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #343a40; /* Set footer background color */
+  color: #fff;
+  padding: 30px 0;
+}
+
+.logo-briefing img {
+  max-width: 100px; /* Adjust the logo size */
+  margin-bottom: 20px;
+}
+
+.pages {
+  margin-right: 20px;
+}
+
+.pages a {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pages a:hover {
+  color: #007bff;
+}
+
+/* Add additional styles based on your design preferences */
+
+.trending-projects {
+  padding: 50px 0;
+}
+
+.card {
+  margin: 0 10px;
+  position: relative;
+}
+
+.card .more-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card .more-info:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.image-carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
