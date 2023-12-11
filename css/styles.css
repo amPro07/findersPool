@@ -56,7 +56,7 @@ body {
 
 /* Full-screen Banner Section */
 .banner-section {
-  background-image: url("/img/banner.jpg"); /* Replace 'banner-background.jpg' with your own image */
+  background-image: url("../img/banner.jpg"); /* Replace 'banner-background.jpg' with your own image */
   background-size: cover;
   background-position: center;
   color: #fff;
