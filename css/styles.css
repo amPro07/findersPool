@@ -13,7 +13,7 @@ body {
   /* Add any other styling you need */
 }
 
-/* Add this to your CSS */
+/* Add this to your CSS
 .slick-prev,
 .slick-next {
   font-size: 24px;
@@ -37,6 +37,53 @@ body {
 .slick-prev:hover,
 .slick-next:hover {
   background-color: #0056b3;
+} */
+
+/* Update this in your CSS */
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Set a higher z-index to make sure the arrows appear on top */
+}
+
+.slick-prev {
+  left: -40px; /* Adjust the position as needed */
+}
+
+.slick-next {
+  right: -40px; /* Adjust the position as needed */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #0056b3;
+}
+
+.card-slider {
+  position: relative; /* Ensure the slider container is relative */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .slick-prev,
+  .slick-next {
+    font-size: 18px;
+  }
+
+  .slick-prev {
+    left: -30px;
+  }
+
+  .slick-next {
+    right: -30px;
+  }
 }
 
 /* Transparent Navigation */

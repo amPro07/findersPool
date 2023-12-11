@@ -57,8 +57,8 @@ $(document).ready(function () {
     autoplay: false,
     arrows: true,
     autoplaySpeed: 2000,
-    nextArrow: '<button type="button" class="slick-next">Next</button>',
-    prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+    nextArrow: '<button type="button" class="slick-next"></button>',
+    prevArrow: '<button type="button" class="slick-prev"></button>',
     responsive: [
       {
         breakpoint: 992,
